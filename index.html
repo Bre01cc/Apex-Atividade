@@ -12,11 +12,10 @@
     <title>Apex</title>
 </head>
 
-<body
-    class="bg-[url('./img/Background.png')] bg-cover bg-center bg-no-repeat min-h-screen w-full flex flex-col font-oxanium ">
+<body class="bg-[url('./img/Background.png')] bg-cover bg-center bg-no-repeat h-screen flex flex-col font-oxanium">
 
     <!-- Header -->
-    <header class="h-30 flex flex-col">
+    <header class="h-20 flex flex-col">
 
         <!-- Menu superior -->
         <nav class="bg-[#161616] flex items-center justify-end h-8">
@@ -24,9 +23,9 @@
         </nav>
 
         <!-- Menu Apex -->
-        <div class="lg:h-16 pl-5 pr-5">
+        <div class="lg:h-16 hidden sm:block">
   <!-- Consertar espaço -->
-            <div class="menu-Apex bg-[url('./img/Menu.png')]  bg-cover bg-center flex items-center h-full justify-between pl-15 pr-15 2xl: ml-10 mr-10">
+            <div class="bg-[url('./img/Menu.png')] bg-no-repeat  bg-contain">
                 <div class="flex items-center">
                     <img src="./img/Logo.png" alt="Logo Apex">
 
@@ -38,8 +37,9 @@
                         <li><a href="#" class="hover:underline">COMMUNITY</a></li>
                         <li><a href="#" class="hover:underline">COMPETE</a></li>
                     </ul>
+                    
                 </div>
-                <button class=" bg-[#C83C35] h-8 w-44 text-white text-sm text-center">
+                <button class=" bg-[#C83C35] h-8 w-44 text-white text-sm text-center hidden lg:block">
                     <p>DOWNLOAD FOR FREE</p>
                 </button>
 
@@ -49,26 +49,25 @@
 
     </header>
     <!-- MAIN -->
-    <main class=" flex flex-grow">
+    <main class=" flex flex-col flex-grow mt-10 lg:flex-row">
         <!-- Div CONTEUDO -->
-        <section class="w-1/2 flex flex-col pl-32">
+        <section class=" bg-blue-900 h-1/2 lg:w-1/2 h-full flex-col pl-32 ">
             <!-- Div margin -->
-            <div class="w-2/2 h-1/4"></div>
+            <div class="w-2/4 h-1/4"></div>
+
   <!-- Div  GUARDA O CONTEUDO -->
-            <div class="w-2/2 h-2/4">
+            <div class="w-full h-2/4">
                   <!-- Div LOGO APEX -->
-                <div class="bg-[url('./img/Logozinha.png')] bg-no-repeat h-3/5 width-1/2"></div>
-                <div class="h-2/5 text-white text-3xl space-y-5">
-                    <p class="h-2/4">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.</p>
-                    <div class="h-3/5 flex pb-10 ">
-                        <img src="./img/Buttons.png" alt="Buttons">
-                    </div>
+                <div class="bg-[url('./img/Logozinha.png')] bg-no-repeat  bg-contain h-3/5 width-1/2"></div>
+                <div class="h-2/5 text-white text-3xl">
+                    <p class="h-2/4  hidden sm:block">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.</p>
+                   <button class="bg-pink-500 h-2/4"></button>
                 </div>
             </div>
            
         </section>
         <!-- Div PERSONAGEM -->
-        <div class="img w-1/2 bg-[url('./img/Personagem.png')] bg-no-repeat bg-contain bg-bottom"></div>
+        <div class=" h-1/2 bg-[url('./img/Personagem.png')] bg-no-repeat bg-contain bg-bottom lg:w-1/2 h-full"></div>
     </main>
 
 </body>
