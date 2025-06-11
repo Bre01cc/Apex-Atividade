@@ -23,8 +23,8 @@
         </nav>
 
         <!-- Menu Apex -->
-        <div class="lg:h-16 hidden sm:block">
-  <!-- Consertar espaço -->
+        <div class="lg:h-16  hidden sm:block">
+            <!-- Consertar espaço -->
             <div class="bg-[url('./img/Menu.png')] bg-no-repeat  bg-contain">
                 <div class="flex items-center">
                     <img src="./img/Logo.png" alt="Logo Apex">
@@ -37,7 +37,7 @@
                         <li><a href="#" class="hover:underline">COMMUNITY</a></li>
                         <li><a href="#" class="hover:underline">COMPETE</a></li>
                     </ul>
-                    
+
                 </div>
                 <button class=" bg-[#C83C35] h-8 w-44 text-white text-sm text-center hidden lg:block">
                     <p>DOWNLOAD FOR FREE</p>
@@ -49,25 +49,30 @@
 
     </header>
     <!-- MAIN -->
-    <main class=" flex flex-col flex-grow mt-10 lg:flex-row">
+    <main class="relative flex-col flex-grow flex  mt-10 lg:flex-row bg-right">
         <!-- Div CONTEUDO -->
-        <section class=" bg-blue-900 h-1/2 lg:w-1/2 h-full flex-col pl-32 ">
+        <section class="relative z-10 lg:w-1/2 h-full flex-col pl-32">
             <!-- Div margin -->
             <div class="w-2/4 h-1/4"></div>
 
-  <!-- Div  GUARDA O CONTEUDO -->
-            <div class="w-full h-2/4">
-                  <!-- Div LOGO APEX -->
-                <div class="bg-[url('./img/Logozinha.png')] bg-no-repeat  bg-contain h-3/5 width-1/2"></div>
-                <div class="h-2/5 text-white text-3xl">
-                    <p class="h-2/4  hidden sm:block">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.</p>
-                   <button class="bg-pink-500 h-2/4"></button>
+            <!-- Div  GUARDA O CONTEUDO -->
+            <div class="w-full h-2/4 relative top-[100px] lg:top-0">
+                <!-- Div LOGO APEX -->
+                <div class="bg-[url('./img/Logozinha.png')] bg-no-repeat  bg-contain h-full width-1/2 lg:h-3/5"></div>
+                <div class="text-white text-3xl lg:h-2/5">
+                    <p class="h-2/4  hidden sm:block">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S,
+                        Nintendo Switch, and PC via Origin and Steam.</p>
+                    <!-- <button class="bg-pink-500 h-2/4"></button> -->
                 </div>
             </div>
-           
+
+            </div>
+
         </section>
         <!-- Div PERSONAGEM -->
-        <div class=" h-1/2 bg-[url('./img/Personagem.png')] bg-no-repeat bg-contain bg-bottom lg:w-1/2 h-full"></div>
+        <div
+            class="absolute bottom-0 right-0 w-full h-full bg-[url('./img/Personagem.png')] bg-no-repeat  lg:w-1/2 bg-contain bg-bottom">
+        </div>
     </main>
 
 </body>
