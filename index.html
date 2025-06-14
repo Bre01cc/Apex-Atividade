@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -23,20 +25,24 @@
         </nav>
 
         <!-- Menu Apex -->
-        <div class="lg:h-16 hidden sm:block lg:ml-20">
+        <div class="lg:h-16 hidden sm:block lg:ml-25 lg:mr-25">
+
             <!-- Consertar espaço -->
-            <div class="h-full bg-contain bg-no-repeat flex items-center justify-between px-16 ">
+            <nav
+                class="h-full  sm:bg-[url('./img/Menu.png')] xl:bg-cover  lg:bg-contain bg-cover bg-no-repeat flex items-center justify-between px-16 pl-16   ">
 
                 <div class="flex items-center justify-center">
-                    <img src="./img/Logo.png" alt="Logo Apex" class="w-1/12">
+                    <img src="./img/Logo.png" alt="Logo Apex" class="w-1/12 h-9/10">
 
                     <ul class="text-white flex flex-row items-center text-sm ml-5 space-x-6 lg:ml-10">
-                        <li><a href="#" class="hover:underline">ABOUT</a></li>
-                        <li><a href="#" class="hover:underline">SEASON</a></li>
-                        <li><a href="#" class="hover:underline">BATTLE PASS</a></li>
-                        <li><a href="#" class="hover:underline">NEWS & MEDIA</a></li>
-                        <li><a href="#" class="hover:underline">COMMUNITY</a></li>
-                        <li><a href="#" class="hover:underline">COMPETE</a></li>
+                        <li><a href="#" class="hover:bg-rose-500/50 hover:border hover:border-rose-500">ABOUT</a></li>
+                        <li><a href="#" class="hover:bg-rose-500/50 hover:border hover:border-rose-500">BATTLE PASS</a>
+                        </li>
+                        <li><a href="#" class="hover:bg-rose-500/50 hover:border hover:border-rose-500">NEWS & MEDIA</a>
+                        </li>
+                        <li><a href="#" class="hover:bg-rose-500/50 hover:border hover:border-rose-500">COMMUNITY</a>
+                        </li>
+                        <li><a href="#" class="hover:bg-rose-500/50 hover:border hover:border-rose-500">COMPETE</a></li>
                     </ul>
 
                 </div>
@@ -45,9 +51,16 @@
                 </button>
 
 
-            </div>
-        </div>
+            </nav>
 
+        </div>
+        <div class=" text-white h-full w-full p-1 pl-10 flex justify-between sm:hidden">
+            <img src="./img/Logo.png" alt="Logo Apex" class="w-2/12 h-9/10">
+            <span class="material-symbols-outlined ">
+                menu
+            </span>
+
+        </div>
     </header>
     <!-- MAIN -->
     <main class=" h-screen relative flex  flex-col flex-grow lg:flex-row">
@@ -57,25 +70,30 @@
             <!-- Div margin -->
 
             <!-- Div  GUARDA O CONTEUDO -->
-            <div class="w-full sm:h-full space-y-3 h-2/5 sm:h-4/9 items-center flex flex-col justify-end lg:ml-30 lg:h-2/4">
+            <div
+                class="w-full sm:h-full space-y-3 h-2/5 sm:h-4/9 items-center flex flex-col justify-end lg:ml-30 lg:h-2/4">
                 <!-- Div LOGO APEX -->
                 <div
                     class="bg-[url('./img/Logozinha.png')] bg-no-repeat bg-bottom sm:bg-center bg-contain w-1/2 h-2/3  sm:w-full sm:h-1/5 lg:h-2/5 lg:bg-left">
                 </div>
-                <div class="text-white  w-full text-lg h-1/2 lg:h-5/8 sm:h-1/5 space-y-1 sm:text-center lg:text-left lg:w-full">
+                <div
+                    class="text-white  w-full text-lg h-1/2 lg:h-5/8 sm:h-1/5 space-y-1 sm:text-center lg:text-left lg:w-full">
                     <p class="lg:w-2/3 hidden sm:block">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S,
                         Nintendo Switch, and PC via Origin and Steam.</p>
 
-                    <div class="flex flex-row sm:items-center  items-end justify-center   lg:m-1 w-full lg:w-4/7 space-x-2 h-1/2 sm:h-2/5">
-                        <button class="lg:w-4/8 h-2/3 w-2/8 sm bg-[url('./img/Play-free-btn.png')]  bg-no-repeat bg-contain">
-                      
+                    <div
+                        class="flex flex-row sm:items-center  items-end justify-center   lg:m-1 w-full lg:w-4/7 space-x-2 h-1/2 sm:h-2/5">
+                        <button
+                            class="lg:w-4/8 h-2/3 w-2/8 sm bg-[url('./img/Play-free-btn.png')]  bg-no-repeat bg-contain">
+
 
                         </button>
-                        <button class="lg:w-4/8 w-2/8 h-2/3 bg-[url('./img/Watch-trailer-btn.png')]  bg-no-repeat bg-contain">
-                    
+                        <button
+                            class="lg:w-4/8 w-2/8 h-2/3 bg-[url('./img/Watch-trailer-btn.png')]  bg-no-repeat bg-contain">
+
                         </button>
-                        
-                        
+
+
                     </div>
                 </div>
             </div>
