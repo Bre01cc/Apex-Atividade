@@ -21,11 +21,11 @@
 
         <!-- Menu superior -->
         <nav class="bg-[#161616] flex items-center justify-end h-8">
-            <img src="./img/icons.png" alt="Ícone">
+            <img src="./img/icons.png" alt="Ícone de navegação">
         </nav>
 
         <!-- Menu Apex -->
-        <div class="lg:h-16 hidden sm:block lg:ml-25 lg:mr-25">
+        <div class="lg:h-16 hidden sm:block lg:ml-24 lg:mr-24">
 
             <!-- Consertar espaço -->
             <nav
@@ -56,9 +56,8 @@
         </div>
         <div class=" text-white h-full w-full p-1 pl-10 flex justify-between sm:hidden">
             <img src="./img/Logo.png" alt="Logo Apex" class="w-2/12 h-9/10">
-            <span class="material-symbols-outlined ">
-                menu
-            </span>
+           <span class="material-symbols-outlined" role="button" aria-label="Abrir menu">menu</span>
+
 
         </div>
     </header>
@@ -82,15 +81,15 @@
                         Nintendo Switch, and PC via Origin and Steam.</p>
 
                     <div
-                        class="flex flex-row sm:items-center  items-end justify-center   lg:m-1 w-full lg:w-4/7 space-x-2 h-1/2 sm:h-2/5">
+                        class="flex flex-row sm:items-center  items-end justify-center   lg:m-1 w-full lg:w-4/7 space-x-2 h-1/2 sm:h-2/5 ">
                         <button
-                            class="lg:w-4/8 h-2/3 w-2/8 sm bg-[url('./img/Play-free-btn.png')]  bg-no-repeat bg-contain">
-
-
+                            class="lg:w-1/2 h-2/3 w-1/4 bg-[url('./img/Play-free-btn.png')] bg-no-repeat bg-contain"
+                            aria-label="Jogar grátis">
                         </button>
                         <button
-                            class="lg:w-4/8 w-2/8 h-2/3 bg-[url('./img/Watch-trailer-btn.png')]  bg-no-repeat bg-contain">
-
+                            class="lg:w-1/2 w-1/4 h-2/3 bg-[url('./img/Watch-trailer-btn.png')]  bg-no-repeat bg-contain"
+                             aria-label="Reproduzir vídeo">
+                             
                         </button>
 
 
@@ -99,9 +98,9 @@
             </div>
         </section>
         <!-- Div PERSONAGEM -->
-        <div
+        <figure
             class="absolute bottom-0 right-0 w-full h-full bg-[url('./img/Personagem.png')] bg-no-repeat  lg:w-1/2 bg-contain bg-bottom">
-        </div>
+        </figure>
     </main>
 
 </body>
