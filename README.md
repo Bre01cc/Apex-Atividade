@@ -1,6 +1,23 @@
 # Apex-Atividade
+Atividade avaliativa desenvolvida como desafio para aplicar os conhecimentos do semestre em HTML, CSS e Tailwind CSS.
+O foco principal foi construir uma interface responsiva, adaptando-se corretamente aos formatos desktop, tablet e mobile, conforme protótipo no Figma.
+---
 [Figma](<https://www.figma.com/design/gzYogPq7664LJAlM5q9zUf/LIMA-ATIVIDADE-APEX--Copy-?t=5V3J7H7EULPMvuuQ-1>)
 
-Descktop:
-![{49195424-9A15-4037-91E9-84D4F1500DDB}](https://github.com/user-attachments/assets/f4200dde-caa9-4389-81aa-e67ee057a9b4)
-
+##Desktop:
+![image](https://github.com/user-attachments/assets/ef32efbe-a925-4ab0-a001-fe84e74b6741)
+---
+##Tablet:
+![image](https://github.com/user-attachments/assets/fc8c4e77-75de-4f71-988a-ca983ed538c6)
+---
+##Mobile:
+![image](https://github.com/user-attachments/assets/fe036d96-5472-4288-9fbf-ef4c194663d8)
+---
+##Tecnologias
+-HTML
+-CSS
+-Tailwind CSS
+---
+##Autor
+-[Breno Oliveira](https://www.linkedin.com/in/breno-oliveira-assis-reis-203010351/).
+---
